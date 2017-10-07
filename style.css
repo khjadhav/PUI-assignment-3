@@ -1,0 +1,388 @@
+/* to remove all browser defaults*/
+
+html, body, h1, h2, h3, h4, p, div, ul, ol,li,a {
+    padding:0;
+    border:0;
+    margin:0;
+    list-style-type: none;
+/*    overflow: hidden;*/
+    font:inherit;
+    font-size: 100%;
+    font-family: Avenir, Helvetica, sans-serif;
+}
+
+
+ul {
+    display: inline;
+}
+
+
+
+/*styling the nav-bar list items on the left*/
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    display: block;
+    height: 64px;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.navbar li{
+    float:right;
+}
+
+#logo{
+    float:left;
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 700;
+    padding:16px 16px 16px 48px;
+}
+
+.navbar li a{
+    display: block;
+    text-align: center;
+    font-size:14px;
+    padding: 22px 24px 20px 0;
+    text-align: left;
+    color: #101111;
+    text-decoration: none;
+}
+
+.navbar button{
+    float:left;
+    width: 187px;
+    height: 32px;
+    border-radius: 2px;
+    background-color: #0dadf1;
+    border-style: none;
+    margin: 17px 24px 15px 24px;
+    font-family: Avenir;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-image-text button{
+/*    display: flex;
+    justify-content: center;
+    align-items: center;*/
+    width: 217px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 3px #0dadf1;
+    margin-top:20px;
+    margin-bottom: 37px;
+/*    padding:9px 83px 9px 84;*/
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #0dadf1;
+
+}
+
+
+#banner-image-text {
+    padding:70px 89px 37px 90px;
+    width: 237px;
+    font-family: Avenir;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    color: #000000;
+}
+
+.banner-image-text h2{
+    margin-top:37px;
+    margin-bottom: 20px;
+}
+
+
+.banner{
+    padding-top:107px;
+    padding-bottom:107px;
+    width:100%;
+    height:100%;
+    background-image: url("/Users/ketkijadhav/Documents/CMU 2017/Fall/PUI/Bakery Website/HTML:CSS/assets/banner-image-1.jpg");
+    object-fit:contain;
+    background-size: cover;
+}
+
+.banner-text-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 417px;
+    height: 200px;
+    background-color: white;
+}
+
+
+.section1 li{
+    display:inline;
+    padding:0 8px 0 8px;
+}
+.section-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Styling the section1 button*/
+#section1-button{
+/*    float:center;*/
+    font-family: Avenir;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 400px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #0dadf1;
+    border-style: none;
+/*    margin: 0 27px 15px 24px;*/
+}
+
+
+#banner-image-text h2{
+    text-align: center;
+}
+
+
+/*Change font size, weight and style of the section titles*/
+.section-title{
+    font-family: Avenir;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    color: #000000;
+    padding-left: 47px;
+    padding-top: 80px;
+}
+
+.rectangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:800px;
+    height:2px;
+    background-color: #000000;
+}
+
+.section1-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+/*    margin:30px 47px 20px 47px;*/
+}
+
+/*.section2 .hr{
+    width:95% height:2x background-color:black;
+    height: 2px;
+    background-color: black;
+    border: none;
+}*/
+
+.section2 li{
+    display:inline;
+    padding:0 8px 0 8px;
+}
+
+.section2-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+/*    border-top: 4px solid black;
+    padding: 30px;*/
+/*    margin:30px 47px 20px 47px;*/
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-column1{
+    margin:80px 30px 60px 47px;
+    display:inline-flex;
+    width:210;
+    border-top: 4px solid black;
+    padding: 30px;
+}
+
+.footer-column2{
+    margin:80px 30px 60px 0;
+    display:inline-flex;
+    width:210;
+    border-top: 4px solid black;
+    padding: 30px;
+}
+
+
+.footer-column3{
+    margin:30px 30px 60px 0;
+    display:inline-flex;
+    width:700;
+    border-top: 4px solid black;
+    padding: 26px;
+}
+
+.footer-column3 li{
+    display:inline;
+}
+
+#email-address{
+    border:solid 2px #000000;
+    width:300px;
+    height:26px;
+}
+
+#footer-button{
+    width: 172px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #000000;
+    border-style: none;
+    font-family: Avenir;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right:0px;
+
+}
+
+.discount-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 165px;
+    background-color: #0dadf1;
+    margin-top: 60px;
+}
+
+#discount-text{
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    padding-right: 40px;
+}
+
+#discount-tag{
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.discount-buttons li{
+    display:inline;
+}
+
+#email-address-discount{
+    placeholder:"Enter email address";
+    border:solid 2px #FFFFFF;
+    width:300px;
+    height:22px;
+    background: #0dadf1;
+}
+
+#discount-button{
+    width: 172px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    border-style: none;
+    font-family: Avenir;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #0dadf1;
+    margin-right:0px;
+}
+
+
+.h3{
+    font-size:16px;
+}
+.product-image-text{
+    padding:12px 0 12px 16px;
+}
+.product-image{
+    width:208px;
+    height:282px;
+    background-color:#F5F5F5;
+    box-shadow: 2px 2px 2px #888888;
+    border-radius: 4px;
+}
+
+/*.product-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.product-image{
+/*    float:left;*/
+    /*margin:124px;*/
+}
+
+.product-text{
+/*    float:right;*/
+    width:360px;
+    margin-left:40px;
+}
+
+.product-text h1{
+    font-size:32px;
+    font-weight: 500;
+    padding-bottom:10px;
+}
+
+.product-text h3{
+    font-size:24px;
+    font-weight: 300;
+    padding-bottom:24px;
+}
+
+.add-to-cart-button{
+ width: 187px;
+    height: 32px;
+    border-radius: 2px;
+    background-color: #0dadf1;
+    border-style: none;
+    margin: 17px 24px 15px 24px;
+    font-family: Avenir;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #FFFFFF;
+}
+}
