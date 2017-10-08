@@ -136,7 +136,7 @@ centre these elements using flexbox*/
 
 /*-------------------OUR BESTSELLERS----------------------*/
 
-/*align all the  in one line and add padding*/
+/*align all the links (images) one line and add padding*/
 .section1 li{
     display:inline;
     padding:0 8px 0 8px;
@@ -187,11 +187,13 @@ centre these elements using flexbox*/
 
 /*-------------------INSIDE OUR SHOP----------------------*/
 
+/*align all the links (images) one line and add padding*/
 .section2 li{
     display:inline;
     padding:0 8px 0 8px;
 }
 
+/*center align the images and the button*/
 .section2-images{
     display: flex;
     justify-content: center;
@@ -199,10 +201,12 @@ centre these elements using flexbox*/
     margin-bottom: 20px;
 }
 /*-------------------FOOTER----------------------*/
+/*make all the footer columns align in one line next to each other*/
 .footer{
     display: inline-flex;
 }
 
+/*add a thick black border to the top of the div and adjust padding*/
 .footer-column1{
     display: inline-flex;
     margin:80px 30px 60px 47px;
@@ -211,6 +215,7 @@ centre these elements using flexbox*/
     padding: 30px;
 }
 
+/*add a thick black border to the top of the div and adjust padding and margin*/
 .footer-column2{
     display: inline-flex;
     margin:80px 30px 60px 0;
@@ -219,7 +224,7 @@ centre these elements using flexbox*/
     padding: 30px;
 }
 
-
+/*add a thick black border to the top of the div and adjust padding*/
 .footer-column3{
     display:inline-flex;
     margin:80px 30px 60px 0;
@@ -232,6 +237,7 @@ centre these elements using flexbox*/
     display:inline-flex;
 }
 
+/*make the social media font awesome to appear on another line*/
 .social-media{
     padding:10px;
     position:absolute;
@@ -239,17 +245,19 @@ centre these elements using flexbox*/
 
 }
 
-
+/*change the color of the placeholder text to white*/
 #email-address::-webkit-input-placeholder{
     color:#000000;
 }
 
+/*style the email input box of to get a solid black border*/
 #email-address{
     border:solid 2px #000000;
     width:300px;
     height:26px;
 }
 
+/*style the button as a black solid rounded button*/
 #footer-button{
     width: 172px;
     height: 30px;
@@ -267,6 +275,8 @@ centre these elements using flexbox*/
 }
 
 /*-------------------DISCOUNT SECTION----------------------*/
+
+/*center align all the content and create a blue rectangle which is full width of the screen*/
 .discount-section{
     display: flex;
     justify-content: center;
@@ -277,6 +287,7 @@ centre these elements using flexbox*/
     margin-top: 60px;
 }
 
+/*make the text white in color and set the size*/
 #discount-text{
     font-family: Avenir;
     font-size: 24px;
@@ -286,19 +297,12 @@ centre these elements using flexbox*/
     padding-right: 40px;
 }
 
-#discount-tag{
-    font-family: Avenir;
-    font-size: 16px;
-    font-weight: 300;
-    color: #ffffff;
-    text-align: center;
-}
-
-
+/*make the input and button appear in one single line*/
 .discount-buttons li{
     display:inline;
 }
 
+/*style the email input box to be white border rounded button with blue background*/
 #email-address-discount{
     border:solid 2px #FFFFFF;
     width:300px;
@@ -306,6 +310,7 @@ centre these elements using flexbox*/
     background: #0dadf1;
 }
 
+/*style the button to be white solid rounded rectangle button with blue text on it*/
 #discount-button{
     width: 172px;
     height: 30px;
@@ -321,11 +326,12 @@ centre these elements using flexbox*/
     margin-right:0px;
 }
 
+/*make the placeholder text be white in color*/
 #email-address-discount::-webkit-input-placeholder{
     color:#FFFFFF;
 }
 
-/*---------------------------------PRODUCT PAGE-------------------------------------------*/
+/*---------------------------------PRODUCT PAGE-------------------------------------------
 /*-------------------Page Title----------------------*/
 .h3{
     font-size:16px;
