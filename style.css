@@ -142,6 +142,7 @@ centre these elements using flexbox*/
     padding:0 8px 0 8px;
 }
 
+
 /*center align the images and the button*/
 .section-buttons{
     display: flex;
