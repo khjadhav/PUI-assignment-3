@@ -68,6 +68,12 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     color: #FFFFFF;
 }
 
+#cart{
+    display: inline;
+    padding-left:-80px;
+}
+
+
 /*-------------------BANNER----------------------*/
 /*Centre align all the elements in the banner*/
 .banner{
