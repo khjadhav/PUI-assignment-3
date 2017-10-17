@@ -5,6 +5,7 @@
         <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <script src="main.js" type="text/javascript"></script>
     </head>
 
     <body>
@@ -31,9 +32,45 @@
             <div class="text-and-button">
                 <div class="product-text">
                     <h1>Original (Gluten-free)</h1>
-                    <h3>$ 1.00</h3>
                     <p> Now your favourite cinnamon roll comes with added dietary benefits, go gluten free with this little baby!</p>
-                </div>
+                    <h3>$ 1.00</h3>
+<!--                     <div class="dropdown">
+                          <button class="dropbtn">Original(Gluten Free)    v</button>
+                          <div class="dropdown-content">
+                            <a href="#">Maple Walnut</a>
+                            <a href="#">Birthday Cake</a>
+                            <a href="#">Bacon</a>
+                          </div>
+                    </div> -->
+                    </div>
+
+                    <div>
+                        <select name="Packs">
+                          <option value="Pack of 6">Pack of 6</option>
+                          <option value="Pack of 12">Pack of 12</option>
+                          <option value="Pack of 24">Pack of 24</option>
+                        </select>
+                    </div>
+
+<!--                     <div>
+                        <form method="post" action="">
+                                <button class="inc-button">+</button>
+                                <input id="number" type="number" value="1">
+                                <button class="inc-button">-</button>
+                        </form>
+                    </div> -->
+
+                        <div>
+                        <form>
+                            <input type="checkbox" id="checkbox" name="checkbox-1" value="Maple Walnut">
+                            <label for="flavour1">Maple Walnut</label>
+                            <input type="checkbox" id="checkbox" name="checkbox-1" value="Birthday Cake">
+                            <label for="flavour1">Birthday Cake</label>
+                            <input type="checkbox" id="checkbox" name="checkbox-1" value="Bacon">
+                            <label for="flavour1">Bacon</label>
+                        </form>
+                    </div>
+
                 <div>
                     <button class="add-to-cart-button">ADD TO CART</button>
                 </div>

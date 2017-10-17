@@ -68,11 +68,6 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     color: #FFFFFF;
 }
 
-#cart{
-    display: inline;
-    padding-left:-80px;
-}
-
 
 /*-------------------BANNER----------------------*/
 /*Centre align all the elements in the banner*/
@@ -209,7 +204,8 @@ centre these elements using flexbox*/
 /*-------------------FOOTER----------------------*/
 /*make all the footer columns align in one line next to each other*/
 .footer{
-    display: inline-flex;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /*add a thick black border to the top of the div and adjust padding*/
@@ -246,9 +242,9 @@ centre these elements using flexbox*/
 /*make the social media font awesome to appear on another line*/
 .social-media{
     padding:10px;
-    position:absolute;
-    margin-top:30px;
-
+/*    position:absolute;*/
+/*    margin-top:30px;*/
+    display: flex;
 }
 
 /*change the color of the placeholder text to white*/
@@ -406,6 +402,7 @@ centre these elements using flexbox*/
     width:70%;
     font-size:24px;
     font-weight: 300;
+    padding-top:24px;
     padding-bottom:24px;
 }
 
@@ -429,6 +426,64 @@ centre these elements using flexbox*/
     letter-spacing: 1.3px;
     text-align: center;
     color: #FFFFFF;
+}
+
+/*------the Dropdown menu--------*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #000000;
+    cursor: pointer;
+    margin-bottom:16px;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #FFFFFF;
+    border-color: #86DBFF;
+}
+
+
+#number{
+    width:20px;
 }
 
 /*--------------------------------ABOUT US PAGE-------------------------------------------*/
